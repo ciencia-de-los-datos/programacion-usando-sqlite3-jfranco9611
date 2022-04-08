@@ -42,3 +42,8 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+
+SELECT K0, MAX(c12) as 'MAX(c12)', MIN(c12) as 'min(C12)'
+FROM tbl1
+GROUP BY K0
+ORDER BY K0
