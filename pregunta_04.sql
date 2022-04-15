@@ -42,7 +42,7 @@
 -- 
 SELECT K0, c16
 FROM tbl1
-WHERE c16 LIKE '%' = K0
+WHERE c16 LIKE K0||'%'
 
 
 
